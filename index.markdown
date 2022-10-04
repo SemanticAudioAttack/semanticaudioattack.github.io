@@ -3,31 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: HeatDeCam Detecting Hidden Spy Cameras via Thermal Emissions
+title: SMACK: Semantically Meaningful Adversarial Audio Attack
 layout: default
 ---
 
 # {{ page.title }}
 ## Abstract
-Unlawful video surveillance of unsuspecting individuals using
-spy cameras has become an increasing concern. To mitigate these
-threats, there are both commercial products and research proto-
-types designed to detect hidden spy cameras in household and
-office environments. However, existing work often relies heavily
-on user expertise and only applies to wireless cameras. To bridge
-this gap, we propose HeatDeCam, a thermal-imagery-based spy
-camera detector, capable of detecting hidden spy cameras with or
-without built-in wireless connectivity. To reduce the reliance on
-user expertise, HeatDeCam leverages a compact neural network
-deployed on a smartphone to recognize unique heat dissipation
-patterns of spy cameras. To evaluate the proposed system, we have
-collected and open-sourced a dataset of a total of 22,506 thermal
-and visual images. These images consist of 11 spy cameras collected
-from 6 rooms across different environmental conditions. Using this
-dataset, we found HeatDeCam can achieve over 95% accuracy in
-detecting hidden cameras. We have also conducted a usability eval-
-uation involving a total of 416 participants using both an online
-survey and an in-person usability test to validate HeatDeCam.
+Voice controllable systems rely on speech recognition and speaker identification as the key enabling technologies. While they bring revolutionary changes to our daily lives, their security has become a growing concern. Existing work has demonstrated the feasibility of using maliciously crafted perturbations to manipulate speech or speaker recognition. Although these attacks vary in targets and techniques, they all require the addition of noise perturbations. While these perturbations are generally restricted to $L_p$-bounded neighborhood, the added noises inevitably leave unnatural traces recognizable by humans, and can be used for defense. In recognition of this limitation, we introduce a new class of adversarial audio attack, named **S**emantically **M**eaningful Adversarial **A**udio Atta**CK** (SMACK), where the inherent speech attributes (such as prosody) are modified such that they still semantically represent the same speech and preserves the speech quality. The efficacy of SMACK was evaluated against five transcription systems and two speaker recognition systems in a black-box manner. By manipulating semantic attributes, our adversarial audio examples are capable of evading the state-of-the-art defenses, with better speech naturalness compared to traditional $L_p$-bounded attacks in the human perceptual study.
 
 # Team
 
